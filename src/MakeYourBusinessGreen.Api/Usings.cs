@@ -1,0 +1,11 @@
+﻿global using MakeYourBusinessGreen.Application.Commands.AuthCommands;
+global using MakeYourBusinessGreen.Application.Commands.OfficeCommands;
+global using MakeYourBusinessGreen.Application.Commands.SuggestionCommands;
+global using MakeYourBusinessGreen.Application.Commands.UserCommands;
+global using MakeYourBusinessGreen.Application.Queries.OfficeQueries;
+global using MakeYourBusinessGreen.Application.Queries.SuggestionQueries;
+global using MakeYourBusinessGreen.Application.Queries.UserQueries;
+global using MakeYourBusinessGreen.Application.Responses;
+global using MediatR;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;

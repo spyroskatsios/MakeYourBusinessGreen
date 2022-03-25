@@ -1,0 +1,9 @@
+﻿global using FluentAssertions;
+global using MakeYourBusinessGreen.Application.Commands.OfficeCommands;
+global using MakeYourBusinessGreen.Application.Commands.SuggestionCommands;
+global using MakeYourBusinessGreen.Application.Interfaces;
+global using MakeYourBusinessGreen.Domain.Entities;
+global using MakeYourBusinessGreen.Domain.Enums;
+global using MakeYourBusinessGreen.Domain.ValueObjects;
+global using System.Threading.Tasks;
+global using Xunit;

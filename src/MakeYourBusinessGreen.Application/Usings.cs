@@ -1,0 +1,14 @@
+﻿global using FluentValidation;
+global using MakeYourBusinessGreen.Application.Commands.AuthCommands;
+global using MakeYourBusinessGreen.Application.Commands.OfficeCommands;
+global using MakeYourBusinessGreen.Application.Commands.SuggestionCommands;
+global using MakeYourBusinessGreen.Application.Commands.UserCommands;
+global using MakeYourBusinessGreen.Application.Interfaces;
+global using MakeYourBusinessGreen.Application.Mapping;
+global using MakeYourBusinessGreen.Application.RequestFeatures;
+global using MakeYourBusinessGreen.Application.Responses;
+global using MakeYourBusinessGreen.Application.ServiceResults;
+global using MakeYourBusinessGreen.Domain.Entities;
+global using MakeYourBusinessGreen.Domain.Repositories;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
