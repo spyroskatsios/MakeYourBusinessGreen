@@ -1,7 +1,8 @@
 ﻿namespace MakeYourBusinessGreen.Api.Controllers;
 
-//[Authorize]
+
 [ApiController]
+[Authorize]
 public class OfficeController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -14,7 +15,6 @@ public class OfficeController : ControllerBase
     [HttpGet(Routes.Office.Get)]
     public async Task<IActionResult> Get([FromRoute] GetOfficeByIdQuery query, CancellationToken cancellationToken)
     {
-        throw new NotImplementedException();
         var response = await _mediator.Send(query, cancellationToken);
         return response == null ? NotFound() : Ok(response);
     }

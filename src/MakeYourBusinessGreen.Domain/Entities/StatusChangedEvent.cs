@@ -1,4 +1,4 @@
-﻿namespace MakeYourBusinessGreen.Domain.ValueObjects;
+﻿namespace MakeYourBusinessGreen.Domain.Entities;
 
 
 public class StatusChangedEvent
