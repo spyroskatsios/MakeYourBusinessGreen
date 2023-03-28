@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C13AD154
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeYourBusinessGreen.Application", "src\MakeYourBusinessGreen.Application\MakeYourBusinessGreen.Application.csproj", "{1B8D8562-1A6D-49CE-9FB6-1762A53251F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeYourBusinessGreen.Infastructure", "src\MakeYourBusinessGreen.Infastructure\MakeYourBusinessGreen.Infastructure.csproj", "{B7C5A27E-E2B0-41A2-BCE4-B9DEB5175AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeYourBusinessGreen.Infrastructure", "src\MakeYourBusinessGreen.Infrastructure\MakeYourBusinessGreen.Infrastructure.csproj", "{B7C5A27E-E2B0-41A2-BCE4-B9DEB5175AF2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MakeYourBusinessGreen.Api", "src\MakeYourBusinessGreen.Api\MakeYourBusinessGreen.Api.csproj", "{46CE6CEE-E3A5-44CB-9C9D-5725C327A0B5}"
 EndProject

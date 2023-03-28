@@ -1,0 +1,5 @@
+﻿global using MakeYourBusinessGreen.Application.Interfaces;
+global using MakeYourBusinessGreen.Application.Models;
+global using MakeYourBusinessGreen.Infrastructure.Authentication;
+global using MakeYourBusinessGreen.Infrastructure.Persistence.Contexts;
+global using MakeYourBusinessGreen.Infrastructure.Persistence.Repositories;

@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
-using MakeYourBusinessGreen.Infastructure.Authentication;
-using MakeYourBusinessGreen.Infastructure.Helpers;
+using MakeYourBusinessGreen.Infrastructure.Authentication;
+using MakeYourBusinessGreen.Infrastructure.Helpers;
 using System;
 using System.Collections.Generic;
 using Xunit;

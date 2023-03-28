@@ -14,7 +14,7 @@ public static class Installer
                 context.Response.ContentType = "application/json";
 
                 var response = new HealthCheckResponse(report.Status.ToString(), report.Entries.Select(x => new HealthCheck(x.Value.Status.ToString(),
-                x.Key, x.Value.Description)), report.TotalDuration);
+                x.Key, x.Value.Description ?? string.Empty)), report.TotalDuration);
 
                 await context.Response.WriteAsync(JsonSerializer.Serialize(response));
             }

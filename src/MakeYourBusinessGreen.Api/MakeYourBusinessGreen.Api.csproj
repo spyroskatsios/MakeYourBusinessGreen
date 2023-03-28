@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MakeYourBusinessGreen.Application\MakeYourBusinessGreen.Application.csproj" />
-    <ProjectReference Include="..\MakeYourBusinessGreen.Infastructure\MakeYourBusinessGreen.Infastructure.csproj" />
+    <ProjectReference Include="..\MakeYourBusinessGreen.Infrastructure\MakeYourBusinessGreen.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

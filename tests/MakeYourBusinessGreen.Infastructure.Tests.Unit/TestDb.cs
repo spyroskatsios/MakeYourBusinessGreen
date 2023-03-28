@@ -1,4 +1,4 @@
-﻿using MakeYourBusinessGreen.Infastructure.Persistence.Contexts;
+﻿using MakeYourBusinessGreen.Infrastructure.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using System;
 

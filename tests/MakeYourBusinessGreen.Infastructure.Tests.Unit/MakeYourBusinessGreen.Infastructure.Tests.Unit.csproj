@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MakeYourBusinessGreen.Infastructure\MakeYourBusinessGreen.Infastructure.csproj" />
+    <ProjectReference Include="..\..\src\MakeYourBusinessGreen.Infrastructure\MakeYourBusinessGreen.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

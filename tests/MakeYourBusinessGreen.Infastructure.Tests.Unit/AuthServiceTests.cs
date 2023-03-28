@@ -2,8 +2,8 @@
 using MakeYourBusinessGreen.Application.Commands.AuthCommands;
 using MakeYourBusinessGreen.Application.Interfaces;
 using MakeYourBusinessGreen.Application.Models;
-using MakeYourBusinessGreen.Infastructure.Authentication;
-using MakeYourBusinessGreen.Infastructure.Persistence.Interfaces;
+using MakeYourBusinessGreen.Infrastructure.Authentication;
+using MakeYourBusinessGreen.Infrastructure.Persistence.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Configuration;

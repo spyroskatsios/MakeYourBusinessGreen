@@ -3,8 +3,8 @@ using MakeYourBusinessGreen.Api.HealthChecks;
 using MakeYourBusinessGreen.Api.Services;
 using MakeYourBusinessGreen.Application;
 using MakeYourBusinessGreen.Application.Interfaces;
-using MakeYourBusinessGreen.Infastructure;
-using MakeYourBusinessGreen.Infastructure.Persistence.Contexts;
+using MakeYourBusinessGreen.Infrastructure;
+using MakeYourBusinessGreen.Infrastructure.Persistence.Contexts;
 using Microsoft.OpenApi.Models;
 
 namespace MakeYourBusinessGreen.Api;

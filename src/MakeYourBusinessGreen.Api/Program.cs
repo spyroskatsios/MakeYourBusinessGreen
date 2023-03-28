@@ -1,4 +1,4 @@
-using MakeYourBusinessGreen.Infastructure.Persistence;
+using MakeYourBusinessGreen.Infrastructure.Persistence;
 
 namespace MakeYourBusinessGreen.Api;
 

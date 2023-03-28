@@ -1,5 +1,5 @@
 ﻿namespace MakeYourBusinessGreen.Application.Queries.UserQueries.Handlers;
-public class GetUserByIdHandler : IRequestHandler<GetUserByIdQuery, UserResponse>
+public class GetUserByIdHandler : IRequestHandler<GetUserByIdQuery, UserResponse?>
 {
     private readonly IUserService _userService;
 
@@ -8,6 +8,6 @@ public class GetUserByIdHandler : IRequestHandler<GetUserByIdQuery, UserResponse
         _userService = userService;
     }
 
-    public async Task<UserResponse> Handle(GetUserByIdQuery request, CancellationToken cancellationToken)
+    public async Task<UserResponse?> Handle(GetUserByIdQuery request, CancellationToken cancellationToken)
     => await _userService.GetAsync(request, cancellationToken);
 }

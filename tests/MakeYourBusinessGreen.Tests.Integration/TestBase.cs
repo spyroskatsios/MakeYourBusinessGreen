@@ -1,6 +1,6 @@
 ﻿using MakeYourBusinessGreen.Api;
-using MakeYourBusinessGreen.Infastructure.Authentication;
-using MakeYourBusinessGreen.Infastructure.Persistence.Contexts;
+using MakeYourBusinessGreen.Infrastructure.Authentication;
+using MakeYourBusinessGreen.Infrastructure.Persistence.Contexts;
 using MediatR;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;

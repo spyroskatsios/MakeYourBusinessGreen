@@ -3,7 +3,7 @@ public class RefreshToken
 {
     public Guid Id { get; set; }
 
-    public string Value { get; set; }
+    public string Value { get; set; } = default!;
 
     public DateTime CreationDateTime { get; set; }
 
@@ -11,6 +11,6 @@ public class RefreshToken
 
     public bool Invalidated { get; set; } = false;
 
-    public string UserId { get; set; }
+    public string UserId { get; set; } = default!;
 
 }

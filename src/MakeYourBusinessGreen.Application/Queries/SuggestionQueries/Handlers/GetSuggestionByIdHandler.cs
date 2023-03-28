@@ -1,5 +1,5 @@
 ﻿namespace MakeYourBusinessGreen.Application.Queries.SuggestionQueries.Handlers;
-public class GetSuggestionByIdHandler : IRequestHandler<GetSuggestionByIdQuery, SuggestionResponse>
+public class GetSuggestionByIdHandler : IRequestHandler<GetSuggestionByIdQuery, SuggestionResponse?>
 {
     private readonly IReadDbContext _context;
 
@@ -8,7 +8,7 @@ public class GetSuggestionByIdHandler : IRequestHandler<GetSuggestionByIdQuery, 
         _context = context;
     }
 
-    public async Task<SuggestionResponse> Handle(GetSuggestionByIdQuery request, CancellationToken cancellationToken)
+    public async Task<SuggestionResponse?> Handle(GetSuggestionByIdQuery request, CancellationToken cancellationToken)
     {
         var suggestion = await _context.Suggestions
             .Include(x => x.Office)
